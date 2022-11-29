@@ -119,18 +119,13 @@ if(myHour >= 5 && myHour < 12){
 	 myColor = "white";
 	 myPic="evening.jpg";
 	 
-	}else if(myHour>=23 && myHour<5){ 
+}else {
+	//alert("Not Afternoon!");
      myGreeting="Good night!";
 	 myColor = "blue";
 	 myPic="night.jpg";   
-
-
-}else{
-    //alert("Not Afternoon!") ;
-	myGreeting = "Not Afternoon!";
-	myColor = "white";
-	myPic = "";
 }
+
 //console.log(myGreeting);
 //add.images path to myPic
 myPic = "images/" + myPic;
